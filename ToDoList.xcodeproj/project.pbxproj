@@ -16,6 +16,7 @@
 		89614C521AA0CF0B00AB41A7 /* ToDoListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 89614C511AA0CF0B00AB41A7 /* ToDoListTests.m */; };
 		898F0E971AAA074B00C9F742 /* AddTodoItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 898F0E961AAA074B00C9F742 /* AddTodoItemViewController.m */; };
 		898F0E9A1AAA083200C9F742 /* ToDoListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 898F0E991AAA083200C9F742 /* ToDoListTableViewController.m */; };
+		898F0E9D1AAA5ABB00C9F742 /* ToDoItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 898F0E9C1AAA5ABB00C9F742 /* ToDoItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,8 @@
 		898F0E961AAA074B00C9F742 /* AddTodoItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddTodoItemViewController.m; sourceTree = "<group>"; };
 		898F0E981AAA083200C9F742 /* ToDoListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToDoListTableViewController.h; sourceTree = "<group>"; };
 		898F0E991AAA083200C9F742 /* ToDoListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToDoListTableViewController.m; sourceTree = "<group>"; };
+		898F0E9B1AAA5ABB00C9F742 /* ToDoItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToDoItem.h; sourceTree = "<group>"; };
+		898F0E9C1AAA5ABB00C9F742 /* ToDoItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToDoItem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +72,8 @@
 		89614C291AA0CF0B00AB41A7 = {
 			isa = PBXGroup;
 			children = (
+				898F0E9B1AAA5ABB00C9F742 /* ToDoItem.h */,
+				898F0E9C1AAA5ABB00C9F742 /* ToDoItem.m */,
 				89614C341AA0CF0B00AB41A7 /* ToDoList */,
 				89614C4E1AA0CF0B00AB41A7 /* ToDoListTests */,
 				89614C331AA0CF0B00AB41A7 /* Products */,
@@ -229,6 +234,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				898F0E9D1AAA5ABB00C9F742 /* ToDoItem.m in Sources */,
 				89614C3E1AA0CF0B00AB41A7 /* ViewController.m in Sources */,
 				89614C3B1AA0CF0B00AB41A7 /* AppDelegate.m in Sources */,
 				89614C381AA0CF0B00AB41A7 /* main.m in Sources */,
